@@ -13,6 +13,17 @@ angular 2 后台管理系统
     ```
         npm install
     ```
+    
+3. 启动服务
+    ```
+        ng serve
+    ```
+    
+4. 浏览器中打开
+    ```
+        http://localhost:4200
+    ```
+    
 
 ## 提交纪录
 
