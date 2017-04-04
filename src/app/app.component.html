@@ -1,3 +1,49 @@
-<h1>
-  {{title}}
-</h1>
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--waterfall">
+        <!-- Top row, always visible -->
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">标题</span>
+            <div class="mdl-layout-spacer"></div>
+            <span class="mdl-badge" data-badge="4">用户消息</span>
+            <span>
+                <button id="demo-menu-lower-right" class="mdl-button mdl-js-button header-button">
+                    账号信息
+                </button>
+            </span>
+
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+                <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
+                    <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">标题</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" routerLink="home">系统概览</a>
+            <a class="mdl-navigation__link" routerLink="apList">产品系统</a>
+            <a class="mdl-navigation__link" routerLink="">用户系统</a>
+            <a class="mdl-navigation__link" routerLink="login">账号管理</a>
+        </nav>
+    </div>
+
+    <div class="header-button-ul">
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+            <li class="mdl-menu__item">Some Action</li>
+            <li class="mdl-menu__item">Another Action</li>
+            <li class="mdl-menu__item">Yet Another Action</li>
+        </ul>
+    </div>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            <router-outlet></router-outlet>
+        </div>
+    </main>
+</div>
+
