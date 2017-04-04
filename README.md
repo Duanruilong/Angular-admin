@@ -2,6 +2,18 @@
 
 angular 2 后台管理系统
 
+## 使用说明
+
+1. 下载本项目
+    ```
+        git clone https://github.com/wuyunfeng8/Angular-admin.git
+    ```
+    
+2. 安装依赖
+    ```
+        npm install
+    ```
+
 ## 提交纪录
 
 1. 2017.04.04 首次提交做好了脚手架搭建以及相关依赖的构建
