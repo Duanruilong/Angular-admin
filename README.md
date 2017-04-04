@@ -1,27 +1,13 @@
-# NgAdmin
+# Angular-admin
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
+angular 2 后台管理系统
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 提交纪录
 
-## Code scaffolding
+1. 2017.04.04 首次提交做好了脚手架搭建以及相关依赖的构建
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## 相关插件
+1. [getmdl](https://getmdl.io/index.html) Angular UI
+2. [Angular Material](https://material.angular.io) Angular UI
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2款UI前款比较成熟，后款处于测试阶段，想要对比一下2款UI的便捷性以便于后期项目长期使用所以2款均安装，后期考虑去掉一款，在此记录
